@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+faiss_db
+docs
+
+# Virtual environment
+venv/
+.env/
+.venv/
+venv/
+# Environment / sensitive files
+*.env
+.env.*
+secrets/
+config/*.env
+
+# Byte-compiled / local caches
+*.sqlite3
+.cache/
+pytest_cache/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Docker & compose
+docker-compose.yml
+Dockerfile.dev
+experiments/
+# Tests (optional: keep tests out of container)
+tests/
+
+# Logs
+*.log
+logs/
+
+# Notebook files
+*.ipynb
+
+# Large data files
+data/
+datasets/

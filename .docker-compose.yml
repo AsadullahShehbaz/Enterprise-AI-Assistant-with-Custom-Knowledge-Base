@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  api:
+    image: asadullahshehbaz/persistent-agent:latest
+    container_name: fastapi-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - data_volume:/app/data
+    env_file:
+      - .env
+    restart: always
+
+volumes:
+  data_volume:
