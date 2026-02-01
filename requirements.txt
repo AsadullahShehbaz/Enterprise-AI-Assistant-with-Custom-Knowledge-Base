@@ -35,8 +35,8 @@ python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 argon2-cffi==23.1.0
 python-dotenv==1.0.0
-pydantic==2.5.3
-pydantic-settings==2.1.0
+pydantic>=2.7.4
+pydantic-settings>=2.1.0
 email-validator>=2.1.1
 
 # HTTP & Web
@@ -46,7 +46,6 @@ beautifulsoup4==4.12.3
 lxml==5.1.0
 
 # Utilities
-pydantic-core==2.14.6
 typing-extensions==4.9.0
 annotated-types==0.6.0
 
