@@ -1,4 +1,4 @@
-# Persistent Chatbot API
+# Enterprise AI Assistant with Custom Knowledge Base & Persistent Memory
 
 A production-ready chatbot system with calculator tools, RAG-based document query, PostgreSQL thread-level memory, and JWT authentication.
 
