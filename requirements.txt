@@ -345,7 +345,7 @@ torch==2.7.1
 torchaudio==2.7.1
 tornado==6.4.2
 tqdm==4.67.1
-traitlets==5.15.0
+traitlets==5.14.3
 transformers==4.54.0
 trio==0.32.0
 trio-websocket==0.12.2
